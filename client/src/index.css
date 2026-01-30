@@ -1,0 +1,31 @@
+/* ייבוא הפונט Rubik מגוגל */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: #f4f6f8; /* צבע רקע אפור בהיר-בהיר, נעים לעין */
+  background-image: radial-gradient(circle at 10% 20%, rgb(242, 246, 252) 0%, rgb(235, 240, 248) 90%);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* עיצוב פס גלילה (Scrollbar) שיהיה יפה */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
